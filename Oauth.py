@@ -84,8 +84,8 @@ class  BG(Api):
         return super().get_resource(resource, region, query_params)
 
 if __name__ == "__main__":
-    api_client = BG(client_id="6419ff17133b43a4bb323e5ce7f9f7c2",
-                    client_secret="3Nx5SdKzdX8NtmpezdoBlfd2LQtNfort")
+    api_client = BG(client_id="",
+                    client_secret="")
     for tier in range(1,7):
         cards = api_client.get_card(region="us",
                                 locale="en_US",
